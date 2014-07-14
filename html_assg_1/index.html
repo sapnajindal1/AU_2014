@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Converter</title>
+<script type="text/javascript" src="script/script.js"></script>
+<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h3>
+				<a href="#">Conversion Tools</a>
+			</h3>
+		</div>
+	</header>
+	<div class="container">
+		<div class="left">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active" id="lengthpill"><a href="#"
+					onclick="setMode(0);">Length </a></li>
+				<li id="weightpill"><a href="#" onclick="setMode(1);">Weight
+				</a></li>
+				<li id="temperaturepill"><a href="#" onclick="setMode(2);">Temperature
+				</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="well">
+				<div class="form-group">
+					<label for="unitstxt1" id="units1">Distance in KM :</label> <input
+						type="text" name="unitstxt1" id="unitstxt1" class="form-control" />
+				</div>
+				<div class="form-group">
+					<label for="unitstxt2" id="units2">Distance in Miles :</label> <input
+						type="text" name="unitstxt2" id="unitstxt2" class="form-control" />
+				</div>
+				<br /> <input type="button" value="Convert" onclick="convert();"
+					class="btn btn-primary pull-right" /> <br /> <br />
+			</div>
+		</div>
+	</div>
+</body>
+</html>
