@@ -1,0 +1,31 @@
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class Unique_char_count_using_collections{
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+                System.out.print("Please Enter a test String : ");
+		int count =0;
+		String str = scan.next();
+		HashMap<Character,Integer> hashmap = new HashMap<Character,Integer>();		
+		for(int i=0; i<str.length(); i++){
+			if(hashmap.containsKey(str.charAt(i))){
+				hashmap.put(str.charAt(i),hashmap.get(str.charAt(i))+1);
+			}
+			else{
+				hashmap.put(str.charAt(i),1);
+			}
+		}
+		Set<Character> keys= hashmap.keySet();
+		Iterator<Character> it = keys.iterator();
+		while(it.hasNext()){
+			if(hashmap.get(it.next())==1){
+				count++;
+			}
+		}
+		System.out.print("Unique chars count is: " + count);
+	}
+}
