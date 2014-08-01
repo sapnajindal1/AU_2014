@@ -1,0 +1,58 @@
+
+		#offerdetail{
+		color: #666666 ;
+            display: block ;
+            font-size: 30px ;
+            text-align: center ;
+		}
+		#text_size
+		{
+		color: #666666 ;
+            display: block ;
+            font-size: 20px ;
+		}
+		#search_box
+		{
+		color: #666666 ;
+            display: block ;
+            font-size: 20px ;
+            align:center;
+     float:right;
+		}
+		
+		#details {
+    float:left;
+    width:370px;
+    height: 300px;
+	
+}
+#image_details
+{
+float:right;
+    width:300px;
+	top:40%
+    height: 300px;
+}
+#div_offer
+{
+	width:600px;
+	height:200px;
+	left:500;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	margin-left:300px;
+	 background: rgba(68, 255, 255, 0.19);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	
+}
+#offers_div
+{
+	width:600px;
+	height:100px;
+	left:500;
+	margin-top:20;
+	margin-left:300px;
+	background: fff;
+	
+}
