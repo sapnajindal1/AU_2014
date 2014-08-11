@@ -1,0 +1,5 @@
+com\accolite\beans\Course.class
+com\accolite\managebeans\ManageInstitute.class
+com\accolite\managebeans\ManageCourse.class
+com\accolite\beans\Institute.class
+com\accolite\controllers\Connector.class
